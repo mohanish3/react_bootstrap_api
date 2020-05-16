@@ -32,8 +32,8 @@ class Users extends React.Component {
             <div className="col-lg-12 text-center">
               <h2 className="section-heading text-uppercase">Users</h2>
               <div className="col-sm-12 text-left">
-                <table className="table text-center">
-                  <thead>
+                <table className="table table-striped text-center">
+                  <thead className="thead-dark">
                     <tr>
                       <th scope="col">First Name</th>
                       <th scope="col">Last Name</th>

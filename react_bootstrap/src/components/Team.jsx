@@ -1,4 +1,5 @@
 import React from 'react';
+import img from '../assets/img/team/1.JPG';
 
 export default () => {
     return (
@@ -19,11 +20,11 @@ export default () => {
               <div className="team-member">
                 <img
                   className="mx-auto rounded-circle"
-                  src="img/team/1.jpg"
+                  src={img}
                   alt=""
                 />
-                <h4>Kay Garland</h4>
-                <p className="text-muted">Lead Designer</p>
+                <h4>Mohanish</h4>
+                <p className="text-muted">Designer</p>
                 <ul className="list-inline social-buttons">
                   <li className="list-inline-item">
                     <a href="#something">
@@ -47,11 +48,11 @@ export default () => {
               <div className="team-member">
                 <img
                   className="mx-auto rounded-circle"
-                  src="img/team/2.jpg"
+                  src={img}
                   alt=""
                 />
-                <h4>Larry Parker</h4>
-                <p className="text-muted">Lead Marketer</p>
+                <h4>Mohanish</h4>
+                <p className="text-muted">Developer</p>
                 <ul className="list-inline social-buttons">
                   <li className="list-inline-item">
                     <a href="#something">
@@ -75,11 +76,11 @@ export default () => {
               <div className="team-member">
                 <img
                   className="mx-auto rounded-circle"
-                  src="img/team/3.jpg"
+                  src={img}
                   alt=""
                 />
-                <h4>Diana Pertersen</h4>
-                <p className="text-muted">Lead Developer</p>
+                <h4>Mohanish</h4>
+                <p className="text-muted">Tester</p>
                 <ul className="list-inline social-buttons">
                   <li className="list-inline-item">
                     <a href="#something">

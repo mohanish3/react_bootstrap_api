@@ -1,4 +1,8 @@
 import React from 'react';
+import img1 from '../assets/img/about/1.jpg';
+import img2 from "../assets/img/about/2.jpg";
+import img3 from "../assets/img/about/3.jpg";
+import img4 from "../assets/img/about/4.jpg";
 
 export default () => {
     return (
@@ -19,7 +23,7 @@ export default () => {
                   <div className="timeline-image">
                     <img
                       className="rounded-circle img-fluid"
-                      src="img/about/1.jpg"
+                      src={img1}
                       alt=""
                     />
                   </div>
@@ -42,7 +46,7 @@ export default () => {
                   <div className="timeline-image">
                     <img
                       className="rounded-circle img-fluid"
-                      src="img/about/2.jpg"
+                      src={img2}
                       alt=""
                     />
                   </div>
@@ -65,7 +69,7 @@ export default () => {
                   <div className="timeline-image">
                     <img
                       className="rounded-circle img-fluid"
-                      src="img/about/3.jpg"
+                      src={img3}
                       alt=""
                     />
                   </div>
@@ -88,7 +92,7 @@ export default () => {
                   <div className="timeline-image">
                     <img
                       className="rounded-circle img-fluid"
-                      src="img/about/4.jpg"
+                      src={img4}
                       alt=""
                     />
                   </div>
