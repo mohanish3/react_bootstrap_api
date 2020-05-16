@@ -51,6 +51,11 @@ function App() {
                   Contact
                 </a>
               </li>
+              <li className="nav-item">
+                <a className="nav-link js-scroll-trigger" href="#users">
+                  Users
+                </a>
+              </li>
             </ul>
           </div>
         </div>
